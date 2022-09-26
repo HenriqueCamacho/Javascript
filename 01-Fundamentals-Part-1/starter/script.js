@@ -29,4 +29,7 @@ const myobj = { name: "Henrique", age: 20 } //Cannot declare empty
 myobj.age = 24
 
 //Var --> Never use, Hoisting
-var Var = 
+var Var
+Var = "Never use"
+
+//We don't need to write let const or var, but by not using it will be Global block, declare always
