@@ -84,3 +84,29 @@ console.log(String(23), 23)
 //- --> String to Number, + --> Number to String
 console.log("I'm " + 24 + ' years old') //don't need tpo convert explicitly
 console.log("23" - "10" - 3)
+
+//Truthy and falsy values
+//5 falsy values: 0, '', undefined, null, Nan
+
+//Jonas Never used conversion
+console.log(`Boolean(0) ${Boolean(0)}`)
+console.log(`Boolean('') ${Boolean('')}`)
+console.log(`Boolean(undefined) ${Boolean(undefined)}`)
+console.log(`Boolean(null) ${Boolean(null)}`)
+console.log(`Boolean(Nan) ${Boolean(NaN)}`)
+
+const money = '';
+if (money) {
+    console.log("I have money")
+}
+else {
+    console.log("I don't have any money")
+}
+
+let height; //=0
+if (height) {
+    console.log("Height is defined")
+}
+else {
+    console.log("Height is undefined")
+}
