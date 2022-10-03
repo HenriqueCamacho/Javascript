@@ -55,7 +55,7 @@ console.log(`Your age is ${age2}`)
 
 
 //Arrow functions
-const sum = (num1, num2) => num1 + num2
+const sum = (num1, num2) => num1 + num2 //Pnly work if it has one statment
 console.log(`Sum of 1+1 = ${sum(1, 1)}`)
 
 const complexOperation = (num1, num2) => {//We are just hiding the function and adding the arrow
@@ -65,3 +65,6 @@ const complexOperation = (num1, num2) => {//We are just hiding the function and 
     return num1 + num2
 }
 console.log(`Sum of 1++ + 1++ = ${complexOperation(1, 1)}`)
+
+//More code and more parameters, loose the advantage of arrow functions
+//Wich should we use? This keyword
