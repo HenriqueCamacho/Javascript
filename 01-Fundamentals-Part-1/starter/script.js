@@ -110,3 +110,61 @@ if (height) {
 else {
     console.log("Height is undefined")
 }
+
+//=== X ==
+const ageTamara = "18"
+if (ageTamara == 18) {// == Pretend it doesn't exist
+    console.log("Can fuck aleady") //Type coercion, use ===
+}//=== Not perform type coercion
+else {
+    console.log("Unfuckable")
+}
+
+//Input
+const favNumber = Number(prompt("What's your favorite number?"))
+console.log(`That's my favorite number ${favNumber} and is of type ${typeof (favNumber)}`)
+
+//Diferent !==
+
+//Logical operators, AND, OR, OPERATORS
+if (!false || (true && false)) {
+    console.log(true)
+}
+
+
+//Switch
+
+const day = "monday" //Works for numbers int, and strings
+
+switch (day) {
+    case "monday": //day === monday
+        console.log("It's monday")
+        console.log("Going to do a lot of things")
+        break
+    case "tuesday":
+        console.log("It's tuesday")
+        break
+    case "wednesday":
+    case "thursday":
+        console.log("It's Wednesday or Thursday")
+        break
+    default:
+        console.log("None of the above")
+        break
+}
+
+//Expression --> piece of code that produces some value
+//Statment --> If's and shits like that, switch
+
+//Ternary Operator
+
+ageSamara = ageTamara ? "18" : 20
+
+console.log(`ageSamara ${ageSamara}`)
+console.log(`I like to drink ${age >= 18 ? 'wine' : 'water'}`);
+
+//Ecmascript
+//ES6 --> ES2015 Annual Release cycle
+//BackWards compatibily, almost nothing removed
+
+//Transpile and polyfil, para converter para ES6(only necessary after app is developed)
