@@ -68,3 +68,6 @@ console.log(`Sum of 1++ + 1++ = ${complexOperation(1, 1)}`)
 
 //More code and more parameters, loose the advantage of arrow functions
 //Wich should we use? This keyword
+
+//Functions calling other functions
+
