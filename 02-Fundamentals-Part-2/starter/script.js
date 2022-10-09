@@ -1,5 +1,5 @@
 //Strict mode --> Write secure JS code
-'use strict' //Must be the First thing in the code
+//'use strict' //Must be the First thing in the code
 
 //Avoid to introduce bugs to code
 //      |-->Forbid us to do certain things
@@ -147,3 +147,5 @@ while (i < 4) {
     i++
 }//Also Do While
 
+//Debugging
+//console.table
